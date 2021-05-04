@@ -10,8 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyJavaApp1">
         <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.MyJavaApp1.NoActionBar"></activity>
+        <activity android:name=".CardVeiwSloka" />
+        <activity android:name=".RecyclerVeiwSloka" />
+        <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
+            android:label="@string/title_activity_settings" />
         <activity
             android:name=".DisplayMessageActivity"
             android:parentActivityName=".MainActivity">
